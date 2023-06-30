@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+
+    "target": "es2016",                                  
+    "lib": ["es2017", "dom"],                                        
+    "module": "es6",                                
+    "moduleResolution": "node",                     
+    "typeRoots": [
+      "./node_modules/", 
+      "./node_modules/@types"
+    ],                                  
+    "types": ["@webgpu/types","node",  "webpack-env"],                  
+
+    "allowJs": true,                                  
+    "sourceMap": true,                                 
+    "esModuleInterop": true,                             
+    "forceConsistentCasingInFileNames": true,            
+
+    "strict": true,                                      
+    "noImplicitAny": true,                            
+    "strictPropertyInitialization": false,             
+    "skipLibCheck": true,
+    "strictNullChecks": false,                        
+  },  
+
+  "exclude": ["node_modules", "dist", "webpack.config.js"]
+}
